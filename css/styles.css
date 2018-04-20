@@ -1,1 +1,86 @@
+h1{
+  font-style: bold;
+  text-align: center;
+  color: #1D41D7;
+  font-size: 88px;
+}
+h2{
+  font-size: 50px;
+  font-style: italic;
+  color: #1DD77;
+}
+body {
+  background-image: url("../nai.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #BIBCC8;
+}
+img {
+  width: 300px;
+  height: 350px;
+}
+p {
+  font-size: 20px;
+  text-align: center;
+  color: red;
+}
+img{
+  position: relative;
+  height: 450px;
+  width: 450px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border: 2px,solid black;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  transition: width 15,height 15;
+  display: inline-block;
+}
+div {
+  border-radius: 50px;
 
+}
+main {
+  border-color: #B1BCC8
+}
+links {
+  font-style: normal;
+  font-size: 18px;
+  text-align: center;
+}
+strong {
+  font-style: bold;
+  color: yellow;
+}
+ul {
+  font-size: 20px;
+  font-style: normal;
+  color: #1E1DD7;
+}
+ol {
+  font-size: 20px;
+  font-style: normal;
+  color: black;
+}
+img {
+  font-size: 20px;
+}
+img {
+  font-size: 20px;
+  color: #1E1DD7;
+  text-align:margin-left;
+}
+img {
+  float: center;
+}
+.links {
+  border: 6px solid green;
+  padding: 6px;
+  margin: 5px ;
+  background-color: white;
+  width: 220px;
+}
+.me {
+  color: white;
+}

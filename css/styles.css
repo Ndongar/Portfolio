@@ -10,10 +10,11 @@ h2{
   color: #1DD77;
 }
 body {
-  background-image: url("../nai.jpg");
+  background-image: url("../vector.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: #BIBCC8;
+  font-family: serif;
 }
 img {
   width: 300px;
@@ -22,7 +23,7 @@ img {
 p {
   font-size: 20px;
   text-align: center;
-  color: red;
+  color: blue;
 }
 img{
   position: relative;
@@ -83,4 +84,10 @@ img {
 }
 .me {
   color: white;
+}
+@media screen and (min-width:420px) {
+  body {
+    background-color: white;
+    color: black;
+  }
 }
